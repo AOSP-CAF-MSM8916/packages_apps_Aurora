@@ -69,7 +69,13 @@
             android:summary="@string/auto_add_shortcuts_description"
             android:title="@string/auto_add_shortcuts_label"/>
 
-        <ListPreference
+        <com.android.launcher3.preferences.IconPackPreference
+        android:key="pref_iconPackPackage"
+        android:title="@string/icon_pack"
+        android:summary="@string/icon_pack_summary"
+        android:persistent="true" />
+	
+	<ListPreference
             android:defaultValue=""
             android:entries="@array/icon_shape_override_paths_names"
             android:entryValues="@array/icon_shape_override_paths_values"

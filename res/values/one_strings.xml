@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2019 The OneOS Project
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- General -->
+    <string name="settings_title">Settings</string>
+
+    <!-- Categories -->
+    <string name="home_category_title">Home screen</string>
+    <string name="home_category_summary">Set Google now panel and more</string>
+    <string name="icons_category_title">Icons</string>
+    <string name="icons_category_summary">Set icon shape and more</string>
+    <string name="app_drawer_category_title">App drawer</string>
+    <string name="app_drawer_category_summary">Customize your app drawer</string>
+    <string name="gestures_category_title">Gestures</string>
+    <string name="gestures_category_summary">Enhance your experience</string>
+
+    <!-- Sub categories -->
+    <string name="home_grid_title">Grid layout</string>
+
+    <!-- Icon packs -->
+    <string name="iconPackPackageDefault" translatable="false">""</string>
+    <string name="icon_pack">Icon pack</string>
+    <string name="icon_pack_summary">Select a custom icon pack</string>
+
+    <!-- Icon size -->
+    <string name="icon_size_title">Icon size</string>
+    <string name="icon_size_extra_small">Tiny</string>
+    <string name="icon_size_small">Small</string>
+    <string name="icon_size_average">Default</string>
+    <string name="icon_size_large">Large</string>
+    <string name="icon_size_extra_large">Extra large</string>
+
+    <!-- Gestures -->
+    <string name="allow_swipe_down_clearall_title">Clear all from recents view</string>
+    <string name="allow_swipe_down_clearall_desc">Swipe vertically downward in recents view to clear all apps.\n\nThis doesn\'t works if P navbar gestures are enable</string>
+
+    <!-- Google Feed -->
+    <string name="google_feed_title">Display Google app</string>
+    <string name="google_feed_summary">To the left of the main Home screen</string>
+
+    <!-- Grid -->
+    <string name="num_default">Default</string>
+    <string name="number_of_columns_title">Number of columns</string>
+    <string name="number_of_rows_title">Number of rows</string>
+    <string name="number_of_hotseat_title">Number of dock icons</string>
+    <string name="state_loading">Applying\u2026</string>
+
+    <!-- Show labels on icon -->
+    <string name="app_show_label_title">App labels</string>
+    <string name="desktop_show_label_summary">Show the labels of apps on the homscreen</string>
+    <string name="allapps_show_label_summary">Show the labels of apps in the app drawer</string>
+
+</resources>
