@@ -61,7 +61,7 @@
                     android:value="notification_badging"/>
             </intent>
         </com.android.launcher3.views.ButtonPreference>
-		
+
         <SwitchPreference
             android:defaultValue="true"
             android:key="pref_add_icon_to_home"
@@ -70,13 +70,6 @@
             android:title="@string/auto_add_shortcuts_label"/>
 
         <ListPreference
-		    android:defaultValue=""
-            android:key="pref_iconPackPackage"
-            android:title="@string/icon_pack"
-            android:summary="@string/icon_pack_summary"
-            android:persistent="true" />
-		
-		<ListPreference
             android:defaultValue=""
             android:entries="@array/icon_shape_override_paths_names"
             android:entryValues="@array/icon_shape_override_paths_values"
