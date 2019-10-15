@@ -122,7 +122,17 @@ public class AuroraCallbacks implements LauncherCallbacks,
     }
 
     @Override
+    public void bindAllApplications(ArrayList<AppInfo> apps) {
+
+    }
+
+    @Override
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
 
+    }
+
+    @Override
+    public boolean hasSettings() {
+	return false;
     }
 }
